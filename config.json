@@ -1,0 +1,31 @@
+{
+    "plugins": [
+        {
+            "name": "blur",
+            "title": "Эффект 1",
+            "enabled": 1,
+            "attributes": [{
+                "name": "amount",
+                "widget": "range",
+                "type": "int",
+                "required": true
+            }]
+        },
+        {
+            "name": "resize",
+            "title": "Эффект 2",
+            "enabled": 1,
+            "attributes": [{
+                "name": "amount",
+                "widget": "text",
+                "type": "int",
+                "required": true
+            }]
+        },
+        {
+            "name": "greyscale",
+            "title": "Эффект 3",
+            "enabled": 1
+        }
+    ]
+}
